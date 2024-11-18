@@ -1,0 +1,103 @@
+/* Styles généraux */
+* {
+    margin: 0.5;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {margin: 0em;
+    background-image: url("graveyard black and white.jpg");
+    color: white;
+    background-image: no repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+}
+
+header {
+    background-color: rgb(106, 25, 172);
+    padding: 0rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a.active, nav a:hover {
+    color: #ffcc00;
+}
+
+/* Conteneur de contact */
+.contact-container {
+    background-color: #222;
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.contact-container p {
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+/* Styles du formulaire */
+form label {
+    display: block;
+    margin-top: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+/* Bouton d'envoi */
+button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(106, 25, 172);;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(106, 25, 172);;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(106, 25, 172);
+    padding: 1rem;
+    text-align: center;
+}

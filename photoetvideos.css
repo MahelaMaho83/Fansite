@@ -1,0 +1,103 @@
+/* Styles généraux */
+* {
+    margin: 0.5;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {margin: 0em;
+    background-image: url("graveyard black and white.jpg");
+    color: white;
+    background-image: no repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+}    
+nav{
+    background-color: rgb(106, 25, 172);
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.navbar{
+    color:white;
+}
+
+.titre { /*Apparence du titre de l'accueil*/
+    text-align: center;
+    color: rgb(135, 71, 160);
+    font-size: 30px;
+    padding: 1%;
+}
+.titre p{
+    color: rgb(255, 255, 255);
+}
+h1 {text-decoration: underline;
+    background-color: rgb(134, 18, 138, 0.5);
+    border:2px solid #000000;
+    text-align: center;
+    color: white;
+}
+p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    }
+    div{
+        text-align: center;
+      } 
+      
+    .video-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        } 
+    .deadman {
+        /* display: flex; */
+        text-align: center;
+        /* flex-direction: column; */
+        justify-content: center;
+}   
+
+/* .photo{
+    height: 200px;
+    width:100px;
+    
+
+} */
+
+
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#wid {
+    column-width: 10px;
+  }
+
+  #branche{display: flex;}
+#form {
+    float: right
+}
+/* Footer */
+footer {
+    background-color: rgb(106, 25, 172);
+    padding: 0rem;
+    text-align: center;
+}
+main{
+    height: 660vh;
+}
+
+.video-box{
+    display: flex;
+    flex-direction: column;
+}
